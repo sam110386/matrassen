@@ -207,3 +207,19 @@
     </div>
     <?php endif;?>
 <?php endif; ?>
+
+<script>
+    
+require(['jquery'], function($){
+    $(document).ready(function(){
+        setTimeout(function(){
+        $('select.product-custom-option').each(function(element) {
+            console.log(element);
+            element.selectedIndex = 1;
+            $("div.price-box .price-final_price").trigger("updatePrice");
+        });         
+        },2000);
+
+    });
+});
+</script>
