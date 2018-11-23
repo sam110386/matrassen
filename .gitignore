@@ -1,0 +1,15 @@
+generated
+*.sql
+phpserver
+Porto 3.0.0
+Template_plug-in
+THEMENL
+update
+var
+vendor
+*.log
+pub
+.github
+nl/
+.DS_Store
+*.DS_Store

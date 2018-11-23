@@ -1,0 +1,29 @@
+<?php
+    $_category_desc = $this->helper('Smartwave\Porto\Helper\Data')->getConfig('porto_settings/category/category_description');
+    $_category  = $block->getCurrentCategory();
+    $_imgUrl   = $_category->getImageUrl();
+?>
+<?php if ($_category_desc == "main_column"): ?>
+  <div class="row">
+  <?php endif;?>
+<?php if ($_description = $_category->getDescription()): ?>
+    <?php if(!empty($_imgUrl)):?>
+    <div class="category-description col-md-8 col-sm-12">
+    <?php else:?>
+      <div class="category-description col-md-12 col-sm-12">
+    <?php endif;?>
+        <?php echo $this->helper('Magento\Catalog\Helper\Output')->categoryAttribute($block->getCurrentCategory(), $_description, 'description') ?>
+    </div>
+<?php endif; ?>
+<?php
+    $_helper    = $this->helper('Magento\Catalog\Helper\Output');
+
+    if (!empty($_imgUrl)) {
+        $_imgHtml = '<div class="category-image col-md-4 col-sm-12"><img src="' . $_imgUrl . '" alt="' . $block->escapeHtml($_category->getName()) . '" title="' . $block->escapeHtml($_category->getName()) . '" class="image" /></div>';
+        $_imgHtml = $_helper->categoryAttribute($_category, $_imgHtml, 'image');
+        /* @escapeNotVerified */ echo $_imgHtml;
+    }
+?>
+<?php if ($_category_desc == "main_column"): ?>
+</div>
+<?php endif;?>

@@ -1,0 +1,378 @@
+[13-Nov-2017 10:16:05 CST6CDT] PHP Warning:  require(/home/matrass1/public_html/vendor/composer/../paragonie/random_compat/lib/random.php): failed to open stream: No such file or directory in /home/matrass1/public_html/vendor/composer/autoload_real.php on line 70
+[13-Nov-2017 10:16:05 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/matrass1/public_html/vendor/composer/../paragonie/random_compat/lib/random.php' (include_path='/home/matrass1/public_html/vendor/magento/zendframework1/library:.:/usr/local/php71/pear') in /home/matrass1/public_html/vendor/composer/autoload_real.php on line 70
+[25-Nov-2017 08:16:14 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_r5abed0r52n93p8bl64n2j9fg4, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('r5abed0r52n93p8...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('r5abed0r52n93p8...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('r5abed0r52n93p8...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 08:16:58 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_2m8hi1dtbrt4ihe3c6muc2tqg0, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('2m8hi1dtbrt4ihe...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('2m8hi1dtbrt4ihe...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('2m8hi1dtbrt4ihe...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 08:20:34 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_6dpn74p42ggdr17ij7n9m9s264, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('6dpn74p42ggdr17...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('6dpn74p42ggdr17...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('6dpn74p42ggdr17...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 08:22:30 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_7dd02m3gj8uaf1742232l69lr2, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('7dd02m3gj8uaf17...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('7dd02m3gj8uaf17...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('7dd02m3gj8uaf17...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 08:23:17 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_it8ib8hselvvihaje178c5v325, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('it8ib8hselvviha...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('it8ib8hselvviha...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('it8ib8hselvviha...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 08:24:29 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_vuv8dndb8hvk4qt2daqe4029h4, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('vuv8dndb8hvk4qt...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('vuv8dndb8hvk4qt...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('vuv8dndb8hvk4qt...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 08:33:34 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_vdbgbtpu69ii9vq77ekaqohft4, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('vdbgbtpu69ii9vq...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('vdbgbtpu69ii9vq...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('vdbgbtpu69ii9vq...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 08:35:21 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_tv20kajm5vkk1r35e3tannu874, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('tv20kajm5vkk1r3...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('tv20kajm5vkk1r3...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('tv20kajm5vkk1r3...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 08:42:48 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_usupgv1tl144efh5883cgc30i7, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('usupgv1tl144efh...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('usupgv1tl144efh...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('usupgv1tl144efh...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 08:53:56 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_61mh53clfgkan9c1muf4vl7o20, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('61mh53clfgkan9c...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('61mh53clfgkan9c...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('61mh53clfgkan9c...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 09:28:27 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_sat7bksg5c5q3l818bivr3gb82, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('sat7bksg5c5q3l8...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('sat7bksg5c5q3l8...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('sat7bksg5c5q3l8...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 09:28:35 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_lpv0r2kb2of7la2lr9kccmt3e4, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('lpv0r2kb2of7la2...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('lpv0r2kb2of7la2...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('lpv0r2kb2of7la2...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 09:52:53 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_kl4s2c6h7t9c7mi352euh21vu1, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('kl4s2c6h7t9c7mi...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('kl4s2c6h7t9c7mi...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('kl4s2c6h7t9c7mi...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 09:56:53 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_g5g9pmvfrqastha844lsq5lbr0, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('g5g9pmvfrqastha...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('g5g9pmvfrqastha...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('g5g9pmvfrqastha...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 09:57:31 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_hghdj51klq2nobcivhe2aea6k2, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('hghdj51klq2nobc...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('hghdj51klq2nobc...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('hghdj51klq2nobc...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 10:45:51 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_qd271uvr2uliloam7sum3165k4, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('qd271uvr2uliloa...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('qd271uvr2uliloa...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('qd271uvr2uliloa...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 11:24:31 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_68lgcio2nur2tjnprc0u7623a3, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('68lgcio2nur2tjn...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('68lgcio2nur2tjn...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('68lgcio2nur2tjn...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 11:43:31 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_mvg42bsd0o6mbhogr1ca1nm784, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('mvg42bsd0o6mbho...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('mvg42bsd0o6mbho...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('mvg42bsd0o6mbho...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 11:54:57 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_u652h6p8loerf5mpjhmv2na1f7, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('u652h6p8loerf5m...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('u652h6p8loerf5m...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('u652h6p8loerf5m...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 12:17:46 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_33aprqvgpp7nulr58dnva06md2, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('33aprqvgpp7nulr...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('33aprqvgpp7nulr...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('33aprqvgpp7nulr...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 12:20:43 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_lpvath6bn2n0q6134j78rar6t0, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('lpvath6bn2n0q61...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('lpvath6bn2n0q61...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('lpvath6bn2n0q61...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 12:38:14 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_0ofd80rjacoebq7072a6dumk83, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('0ofd80rjacoebq7...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('0ofd80rjacoebq7...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('0ofd80rjacoebq7...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 12:46:22 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_8g43gg1irgpl83go56iasm0sj4, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('8g43gg1irgpl83g...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('8g43gg1irgpl83g...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('8g43gg1irgpl83g...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 13:19:19 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_rd0599vucrj8lbqvrii6dn0p10, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('rd0599vucrj8lbq...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('rd0599vucrj8lbq...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('rd0599vucrj8lbq...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 14:57:15 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_avtsdk3b08el19ohg48p7e1uf1, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('avtsdk3b08el19o...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('avtsdk3b08el19o...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('avtsdk3b08el19o...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 14:57:50 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_bq7io7dn8lhtgkdotabv5vg2s2, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('bq7io7dn8lhtgkd...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('bq7io7dn8lhtgkd...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('bq7io7dn8lhtgkd...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 15:36:20 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_tk7fgjcond6fs45hmpa3b25hj2, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('tk7fgjcond6fs45...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('tk7fgjcond6fs45...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('tk7fgjcond6fs45...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 16:12:41 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_tolnprpvjinovsp461psnjiq13, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('tolnprpvjinovsp...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('tolnprpvjinovsp...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('tolnprpvjinovsp...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 16:36:20 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_p5nkkbh70ajd67rp8599574qq3, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('p5nkkbh70ajd67r...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('p5nkkbh70ajd67r...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('p5nkkbh70ajd67r...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 17:00:52 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_nh1gl8gr090sdk46utuqcsjua0, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('nh1gl8gr090sdk4...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('nh1gl8gr090sdk4...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('nh1gl8gr090sdk4...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 17:19:25 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_it73sttqefnacvr6eah79gffa4, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('it73sttqefnacvr...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('it73sttqefnacvr...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('it73sttqefnacvr...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 18:13:16 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_5b5r0q2an2e0n40shsk57fnja7, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('5b5r0q2an2e0n40...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('5b5r0q2an2e0n40...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('5b5r0q2an2e0n40...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 18:18:26 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_fvtsqpadck82bd18nusj942975, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('fvtsqpadck82bd1...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('fvtsqpadck82bd1...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('fvtsqpadck82bd1...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 18:49:01 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_a3h0k5t2k3cdtc431d44ajab20, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('a3h0k5t2k3cdtc4...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('a3h0k5t2k3cdtc4...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('a3h0k5t2k3cdtc4...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 18:49:09 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_9g6iqbdpd4d46hbsdv0ktd1po1, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('9g6iqbdpd4d46hb...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('9g6iqbdpd4d46hb...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('9g6iqbdpd4d46hb...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 18:55:46 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_p5v1vof5eitp5tra2hmn2n8ou4, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('p5v1vof5eitp5tr...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('p5v1vof5eitp5tr...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('p5v1vof5eitp5tr...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 18:55:48 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_gnvj1gm22vb6jfi8l0ce90ahd2, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('gnvj1gm22vb6jfi...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('gnvj1gm22vb6jfi...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('gnvj1gm22vb6jfi...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 18:59:20 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_cs842o3q154n3ik6sconiam124, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('cs842o3q154n3ik...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('cs842o3q154n3ik...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('cs842o3q154n3ik...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 19:57:24 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_ejoakmvnpukuvbe7n8bvvj4220, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('ejoakmvnpukuvbe...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('ejoakmvnpukuvbe...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('ejoakmvnpukuvbe...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 19:59:28 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_njp8p0ujn6f7bdj2jndnubroj2, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('njp8p0ujn6f7bdj...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('njp8p0ujn6f7bdj...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('njp8p0ujn6f7bdj...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 20:42:45 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_nrvkc4rtppqb5kmq5idro8k2u6, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('nrvkc4rtppqb5km...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('nrvkc4rtppqb5km...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('nrvkc4rtppqb5km...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 21:09:35 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_39eicsu1k2egl9ukilg1m6v6m3, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('39eicsu1k2egl9u...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('39eicsu1k2egl9u...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('39eicsu1k2egl9u...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 21:47:14 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_juvh2uo5r7u61m5glrddoj4l11, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('juvh2uo5r7u61m5...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('juvh2uo5r7u61m5...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('juvh2uo5r7u61m5...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 21:59:07 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_8c7du53tv52s7sk5jlkp5e3dl5, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('8c7du53tv52s7sk...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('8c7du53tv52s7sk...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('8c7du53tv52s7sk...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 22:14:20 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_763t6ml4972978nsc8qt9n86v2, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('763t6ml4972978n...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('763t6ml4972978n...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('763t6ml4972978n...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[25-Nov-2017 23:01:49 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20217/sess_7kptgck4kh90p69q6n2l1btqv4, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('7kptgck4kh90p69...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('7kptgck4kh90p69...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('7kptgck4kh90p69...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
+[09-Dec-2017 16:24:00 UTC] PHP Fatal error:  Uncaught Exception: Warning: SessionHandler::read(): open(127.0.0.1:20221/sess_k8kdr0ofiuj4ep95bs2v1ulu35, O_RDWR) failed: No such file or directory (2) in /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php on line 22 in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php:61
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'SessionHandler:...', '/home/matrass1/...', 22, Array)
+#1 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler/Native.php(22): SessionHandler->read('k8kdr0ofiuj4ep9...')
+#2 /home/matrass1/public_html/vendor/magento/framework/Session/SaveHandler.php(93): Magento\Framework\Session\SaveHandler\Native->read('k8kdr0ofiuj4ep9...')
+#3 [internal function]: Magento\Framework\Session\SaveHandler->read('k8kdr0ofiuj4ep9...')
+#4 /home/matrass1/public_html/vendor/magento/framework/Session/SessionManager.php(189): session_start()
+#5 /home/matrass1/public_html/generated/code/Magento/Backend/Model/Auth in /home/matrass1/public_html/vendor/magento/framework/App/ErrorHandler.php on line 61
