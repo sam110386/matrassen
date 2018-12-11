@@ -73,19 +73,7 @@
                                                         <item name="customer-email" xsi:type="array">
                                                             <item name="component" xsi:type="string">Mageplaza_Osc/js/view/form/element/email</item>
                                                         </item>
-                                                        <item name="shippingAdditional" xsi:type="array">
-                                                            <item name="component" xsi:type="string">uiComponent</item>
-                                                            <item name="displayArea" xsi:type="string">shippingAdditional</item>
-                                                            <item name="children" xsi:type="array">
-                                                                <item name="place-order-comment" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">Mageplaza_Osc/js/view/review/comment</item>
-                                                                    <item name="sortOrder" xsi:type="string">20</item>
-                                                                    <item name="config" xsi:type="array">
-                                                                        <item name="componentDisabled" xsi:type="helper" helper="Mageplaza\Osc\Helper\Data::isDisabledComment"/>
-                                                                    </item>
-                                                                </item>
-                                                            </item>
-                                                        </item>
+                                                        
                                                         <item name="address-list" xsi:type="array">
                                                             <item name="config" xsi:type="array">
                                                                 <item name="rendererTemplates" xsi:type="array">
@@ -361,6 +349,19 @@
                                             <item name="component" xsi:type="string">uiComponent</item>
                                             <item name="displayArea" xsi:type="string">place-order-information-right</item>
                                             <item name="children" xsi:type="array">
+                                                <item name="shippingAdditional" xsi:type="array">
+                                                            <item name="component" xsi:type="string">uiComponent</item>
+                                                            <item name="displayArea" xsi:type="string">shippingAdditional</item>
+                                                            <item name="children" xsi:type="array">
+                                                                <item name="place-order-comment" xsi:type="array">
+                                                                    <item name="component" xsi:type="string">Mageplaza_Osc/js/view/review/comment</item>
+                                                                    <item name="sortOrder" xsi:type="string">20</item>
+                                                                    <item name="config" xsi:type="array">
+                                                                        <item name="componentDisabled" xsi:type="helper" helper="Mageplaza\Osc\Helper\Data::isDisabledComment"/>
+                                                                    </item>
+                                                                </item>
+                                                            </item>
+                                                        </item>
                                                 <item name="place-order-button" xsi:type="array">
                                                     <item name="component" xsi:type="string">Mageplaza_Osc/js/view/review/placeOrder</item>
                                                     <item name="sortOrder" xsi:type="string">99</item>

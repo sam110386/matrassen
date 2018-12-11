@@ -123,14 +123,14 @@ $lazy_owl = $this->getData("lazy_owl");
                             <div class="product actions product-item-actions">
                                 <div class="actions-primary">
                                     <?php if ($_product->isSaleable()): ?>
-                                        <?php $postParams = $block->getAddToCartPostParams($_product); ?>
+                                        <?php /*$postParams = $block->getAddToCartPostParams($_product); ?>
                                         <form data-role="tocart-form" action="<?php echo $postParams['action']; ?>" method="post">
                                             <input type="hidden" name="product" value="<?php echo $postParams['data']['product']; ?>">
                                             <input type="hidden" name="<?php echo Action::PARAM_NAME_URL_ENCODED; ?>" value="<?php echo $postParams['data'][Action::PARAM_NAME_URL_ENCODED]; ?>">
                                             <?php if(isset($_category_config['qty_field']) && $_category_config['qty_field']):?>
                                                 <div class="qty-box">
                                                     <a href="javascript:void(0)" class="qtyminus"><i class="porto-icon-minus"></i></a>
-                                                    <input type="text" name="qty" id="qty" maxlength="12" value="<?php /* @escapeNotVerified */ echo $block->getProductDefaultQty() * 1 ?>" title="<?php /* @escapeNotVerified */ echo __('Qty') ?>" class="input-text qty" data-validate="<?php echo $block->escapeHtml(json_encode($block->getQuantityValidators())) ?>"/>
+                                                    <input type="text" name="qty" id="qty" maxlength="12" value="<?php  echo $block->getProductDefaultQty() * 1 ?>" title="<?php  echo __('Qty') ?>" class="input-text qty" data-validate="<?php echo $block->escapeHtml(json_encode($block->getQuantityValidators())) ?>"/>
                                                     <a href="javascript:void(0)" class="qtyplus"><i class="porto-icon-plus"></i></a>
                                                 </div>
                                             <?php endif;?>
@@ -140,7 +140,13 @@ $lazy_owl = $this->getData("lazy_owl");
                                                     class="action tocart primary">
                                                 <span><?php echo __('Add to Cart') ?></span>
                                             </button>
-                                        </form>
+                                        </form> */ ?>
+                                        <button type="button"
+                                                    title="<?php echo $block->escapeHtml(__('More Info')); ?>"
+                                                    class="action tocart primary"
+                                                    onclick="setLocation('<?php echo $_product->getProductUrl() ?>')">
+                                                <span><?php echo __('More Info') ?></span>
+                                            </button>
                                     <?php else: ?>
                                         <?php if ($_product->getIsSalable()): ?>
                                             <div class="stock available"><span><?php echo __('In stock') ?></span></div>
@@ -252,14 +258,14 @@ $lazy_owl = $this->getData("lazy_owl");
                                 <?php endif; ?>
                                 <div class="actions-primary">
                                     <?php if ($_product->isSaleable()): ?>
-                                        <?php $postParams = $block->getAddToCartPostParams($_product); ?>
+                                        <?php /* $postParams = $block->getAddToCartPostParams($_product); ?>
                                         <form data-role="tocart-form" action="<?php echo $postParams['action']; ?>" method="post">
                                             <input type="hidden" name="product" value="<?php echo $postParams['data']['product']; ?>">
                                             <input type="hidden" name="<?php echo Action::PARAM_NAME_URL_ENCODED; ?>" value="<?php echo $postParams['data'][Action::PARAM_NAME_URL_ENCODED]; ?>">
                                             <?php if(isset($_category_config['qty_field']) && $_category_config['qty_field']):?>
                                                 <div class="qty-box">
                                                     <a href="javascript:void(0)" class="qtyminus"><i class="porto-icon-minus"></i></a>
-                                                    <input type="text" name="qty" id="qty" maxlength="12" value="<?php /* @escapeNotVerified */ echo $block->getProductDefaultQty() * 1 ?>" title="<?php /* @escapeNotVerified */ echo __('Qty') ?>" class="input-text qty" data-validate="<?php echo $block->escapeHtml(json_encode($block->getQuantityValidators())) ?>"/>
+                                                    <input type="text" name="qty" id="qty" maxlength="12" value="<?php  echo $block->getProductDefaultQty() * 1 ?>" title="<?php  echo __('Qty') ?>" class="input-text qty" data-validate="<?php echo $block->escapeHtml(json_encode($block->getQuantityValidators())) ?>"/>
                                                     <a href="javascript:void(0)" class="qtyplus"><i class="porto-icon-plus"></i></a>
                                                 </div>
                                             <?php endif;?>
@@ -269,7 +275,13 @@ $lazy_owl = $this->getData("lazy_owl");
                                                     class="action tocart primary">
                                                 <span><?php echo __('Add to Cart') ?></span>
                                             </button>
-                                        </form>
+                                        </form> */ ?>
+                                        <button type="button"
+                                                    title="<?php echo $block->escapeHtml(__('More Info')); ?>"
+                                                    class="action tocart primary"
+                                                    onclick="setLocation('<?php echo $_product->getProductUrl() ?>')">
+                                                <span><?php echo __('More Info') ?></span>
+                                            </button>
                                     <?php else: ?>
                                         <?php if ($_product->getIsSalable()): ?>
                                             <div class="stock available"><span><?php echo __('In stock') ?></span></div>

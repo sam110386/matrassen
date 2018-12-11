@@ -15,7 +15,7 @@ return array (
     array (
       'default' =>
       array (
-        'host' => 'localhost',
+        'host' => '94.124.94.156:3306',
         'dbname' => 'matrassen_mag2eu',
         'username' => 'matrassen_ric',
         'password' => 'RtxgU^GTRlx[',

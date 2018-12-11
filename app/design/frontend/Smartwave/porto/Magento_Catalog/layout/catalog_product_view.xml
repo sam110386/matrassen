@@ -8,6 +8,7 @@
 <page layout="2columns-right" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
         <script src="Magento_Catalog::js/jquery.zoom.min.js"/>
+        <script src="Magento_Catalog::js/category.read.more.js"/>
     </head>
     <body>
         <referenceContainer name="sidebar.additional">
@@ -15,8 +16,9 @@
         </referenceContainer>
         <move element="product.info.stock.sku" destination="product.info.price" after="product.price.final"/>
         <move element="product.info.review" destination="product.info.main" before="product.info.price"/>
-        <!-- <move element="catalog.product.related" destination="sidebar.additional" after="product_view_custom_block"/> -->
-        <referenceBlock name="catalog.product.related" remove="true"/>
+        <!--<move element="catalog.product.related" destination="content" after="product_view_custom_block"/>
+        <move element="product.info.upsell" destination="content" after="product_view_custom_block"/>-->
+        <!--referenceBlock name="catalog.product.related" remove="true"/-->
         <move element="product.info.overview" destination="product.info.main" after="product.info.review"/>
         <referenceContainer name="after.body.start">
             <block class="Magento\Catalog\Block\Product\View" name="product_custom" template="Magento_Catalog::product/view/product_custom.phtml" before="-"/>
@@ -34,6 +36,28 @@
             <block class="Smartwave\Porto\Block\RickSnippet" name="rich_snippet" template="Magento_Catalog::product/view/rich_snippet.phtml" before="-"/>
             <block class="Smartwave\Porto\Block\Template" name="product_view_main_custom_block" before="product.info.main" template="Magento_Catalog::product/view/main_custom_block.phtml"/>
             <block class="Smartwave\Porto\Block\Template" name="product_view_main_custom_block2" after="-" template="Magento_Catalog::product/view/main_custom_block2.phtml"/>
+
+            <block class="Magento\Catalog\Block\Product\ProductList\Related" name="catalog.product.related" template="Magento_Catalog::product/list/items.phtml">
+                <arguments>
+                    <argument name="type" xsi:type="string">related</argument>
+                </arguments>
+                <block class="Magento\Catalog\Block\Product\ProductList\Item\Container" name="related.product.addto" as="addto">
+                    <block class="Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare"
+                           name="related.product.addto.compare" as="compare"
+                           template="Magento_Catalog::product/list/addto/compare.phtml"/>
+                </block>
+            </block>
+            <block class="Magento\Catalog\Block\Product\ProductList\Upsell" name="product.info.upsell" template="Magento_Catalog::product/list/items.phtml">
+                <arguments>
+                    <argument name="type" xsi:type="string">upsell</argument>
+                </arguments>
+                <block class="Magento\Catalog\Block\Product\ProductList\Item\Container" name="upsell.product.addto" as="addto">
+                    <block class="Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare"
+                           name="upsell.product.addto.compare" as="compare"
+                           template="Magento_Catalog::product/list/addto/compare.phtml"/>
+                </block>
+            </block>
+            
             <block class="Smartwave\Porto\Block\Template" name="product.clearer" after="product.info.media" template="Magento_Catalog::product/view/clearer.phtml"/>
             <referenceBlock name="product.info.sku" remove="true"/>
             <referenceBlock name="product.info.stock.sku" remove="true"/>
@@ -42,12 +66,22 @@
         <referenceContainer name="alert.urls">
           <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.overview" template="Magento_Catalog::product/view/discription_top.phtml" group="detailed_info" after="product.info.extrahint">
               <arguments>
-                  <argument name="at_call" xsi:type="string">getDescription</argument>
-                  <argument name="at_code" xsi:type="string">description</argument>
-                  <argument name="css_class" xsi:type="string">overview</argument>
+                  <argument name="at_call" xsi:type="string">getShortDescription</argument>
+                  <argument name="at_code" xsi:type="string">short_description</argument>
+                  <argument name="css_class" xsi:type="string">listtype</argument>
                   <argument name="at_label" xsi:type="string">none</argument>
                   <argument name="title" translate="true" xsi:type="string">Overview</argument>
-                  <argument name="add_attribute" xsi:type="string">itemprop="description"</argument>
+                  <argument name="add_attribute" xsi:type="string">itemprop="short_description"</argument>
+              </arguments>
+          </block>
+          <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.deliverytime" template="Magento_Catalog::product/view/deliverytime.phtml" group="detailed_info" after="product.info.overview">
+              <arguments>
+                  <argument name="at_call" xsi:type="string">getLevertijd</argument>
+                  <argument name="at_code" xsi:type="string">levertijd</argument>
+                  <argument name="css_class" xsi:type="string">overview</argument>
+                  <argument name="at_label" xsi:type="string">Levertijd</argument>
+                  <argument name="title" translate="true" xsi:type="string">Levertijd</argument>
+                  <argument name="add_attribute" xsi:type="string">itemprop="levertijd"</argument>
               </arguments>
           </block>
         </referenceContainer>

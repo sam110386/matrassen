@@ -12,18 +12,6 @@
  * @see \Magento\Catalog\Block\Product\View\Description
  */
 ?>
-<style type="text/css">
-	.listtype ul li::before {
-    color: rgb(0, 85, 204);
-    content: "»";
-    font-size: 12px;
-    margin-right: 10px;
-    padding: 0px 0px 3px;
-}
-.listtype ul{
-	list-style: none;padding-inline-start: 0;
-}
-</style>
 <?php
 $_helper = $this->helper('Magento\Catalog\Helper\Output');
 $_product = $block->getProduct();
@@ -50,10 +38,8 @@ if ($_attributeType && $_attributeType == 'text') {
 }
 ?>
 <?php if ($_attributeValue): ?>
-<div class="product discription-top <?= /* @escapeNotVerified */ $_className ?>">
-    <p><?php if ($renderLabel): ?><strong class="type"><?= /* @escapeNotVerified */ $_attributeLabel ?>: </strong><?php endif; ?>
-    <?= /* @escapeNotVerified */ $_attributeValue ?>
-    </p>
+<div class="product attribute <?= /* @escapeNotVerified */ $_className ?>">
+    <?php if ($renderLabel): ?><strong class="type"><?= /* @escapeNotVerified */ $_attributeLabel ?></strong><?php endif; ?>
+    <div class="value" <?= /* @escapeNotVerified */ $_attributeAddAttribute ?>><?= /* @escapeNotVerified */ $_attributeValue ?></div>
 </div>
-
 <?php endif; ?>

@@ -13,3 +13,4 @@ pub
 nl/
 .DS_Store
 *.DS_Store
+php_errorlog

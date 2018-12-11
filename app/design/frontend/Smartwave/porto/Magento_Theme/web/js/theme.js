@@ -289,3 +289,7 @@ require([
         });
     });
 });
+
+function setLocation(url){
+    document.location.href=url;
+}

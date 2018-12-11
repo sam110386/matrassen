@@ -13,10 +13,13 @@
         <css src="fancybox/css/jquery.fancybox.css" />
         <css src="icon-fonts/css/porto-icons-codes.css" />
         <css src="icon-fonts/css/animation.css" />
+        <css src="css/tooltip.css" />
         <!--script src="jquery.js" /-->
         <!--script src="fancybox/js/jquery.fancybox.js" /-->
         <remove src="jquery.js" />
         <remove src="bootstrap/js/bootstrap.min.js" />
         <remove src="fancybox/js/jquery.fancybox.js" />
+        <script src="js/tooltip.js"/>
+    
     </head>
 </page>
